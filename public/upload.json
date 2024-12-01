@@ -1,0 +1,18 @@
+{
+    "uploadFields": [
+      { "label": "Project Name", "id": "projectName", "type": "text", "placeholder": "Enter project name" },
+      { "label": "Description", "id": "description", "type": "textarea", "placeholder": "Describe your project..." },
+      { "label": "Tags", "id": "tags", "type": "text", "placeholder": "e.g., Web, AI, Python" },
+      { "label": "Upload Project Files", "id": "fileUpload", "type": "file", "accept": ".zip,.rar" }
+    ],
+    "buttons": [
+      { "id": "upload-button", "text": "Submit Project" },
+      { "id": "search-button", "text": "Search" }
+    ],
+    "dummyProjects": [
+      { "name": "AI Project", "tags": ["AI", "Python"] },
+      { "name": "Web Development", "tags": ["Web", "JavaScript"] },
+      { "name": "Data Science", "tags": ["Data", "Python"] }
+    ]
+  }
+  

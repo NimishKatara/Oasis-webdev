@@ -1,0 +1,12 @@
+{
+    "formData": [
+      { "type": "email", "id": "email", "placeholder": "Enter your email" },
+      { "type": "password", "id": "password", "placeholder": "Enter your password" }
+    ],
+    "button": { "id": "login-button", "text": "Login Now" },
+    "links": [
+      { "text": "Forgot password?", "url": "#" },
+      { "text": "Sign Up", "url": "signup.html" }
+    ]
+  }
+  

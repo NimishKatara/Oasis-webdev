@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="upload.css">
+    <title>Project Platform</title>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="logo">
+            <img src="img/logo2.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Upload</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <div class="container">
+        <div class="section upload-section">
+            <h2>Upload Your Project</h2>
+            <form class="upload-form" onsubmit="e.preventDefault()">
+                <div class="form-group">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" name="projectName" placeholder="Enter project name">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="4"
+                        placeholder="Describe your project..."></textarea>
+                </div>
+                <!-- <div class="form-group">
+                    <label for="tags">Tags</label>
+                    <input type="text" id="tags" name="tags" placeholder="e.g., Web, AI, Python">
+                </div> -->
+                <div class="form-group">
+                    <label for="tags">Github Link</label>
+                    <input type="url" id="githubLink" name="githubLink" placeholder="Enter GitHub link">
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="upload-button">Submit Project</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="section search-section">
+            <h2>Search for Projects</h2>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search projects by name or tags">
+                <button type="submit" id="search-button">Search</button>
+            </div>
+            <br>
+            <div class="search-results">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

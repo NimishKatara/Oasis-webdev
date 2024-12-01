@@ -1,0 +1,12 @@
+{
+  "images": [
+    { "name": "logo", "url": "img/oasis2.jpeg" },
+    { "name": "heroVideo", "url": "img/hero.mp4" },
+    { "name": "expertLeft", "url": "img/expertleft.png" },
+    { "name": "expertRight", "url": "img/expertright.png" },
+    { "name": "backgroundLeft", "url": "img/industry image.png" },
+    { "name": "backgroundRight", "url": "img/industry image 1.png" },
+    { "name": "quoteIcon", "url": "img/quote.svg" },
+    { "name": "companyLogo", "url": "img/logo2.png" }
+  ]
+}
